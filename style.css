@@ -52,7 +52,7 @@ li {
 
 .card {
   background-color: #F7F9F9;
-  width: 60%;
+  width: 50%;
   padding: 10px;
   margin: 2px;
   border: 3px #7AA095 solid;
@@ -70,8 +70,11 @@ li {
   background-color: #F7F9F9;
   width: auto;
   padding: 10px;
-  margin: 5px;
+  margin: 10px;
   border-radius: 10px
 }
 
+.images {
+  border-radius: 20px
+}
 
