@@ -1,0 +1,77 @@
+body {
+  background-color:#BED8D4;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #50514F;
+  font-size: 18;
+  text-align: center;
+}
+/*font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito Sans', sans-serif;
+*/
+
+h1{
+  font-family: 'Lato', sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+h2{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+h3{
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+a {
+  font-weight: lighter;
+  color: #50514F;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #7AA095;
+  font-weight: bolder
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column
+}
+
+.card {
+  background-color: #F7F9F9;
+  width: 60%;
+  padding: 10px;
+  margin: 2px;
+  border: 3px #7AA095 solid;
+  border-radius: 10px
+}
+
+.list-inline {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-size: 20px;
+}
+
+.card-menu {
+  background-color: #F7F9F9;
+  width: auto;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px
+}
+
+
