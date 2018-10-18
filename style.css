@@ -2,7 +2,7 @@ body {
   background-color:#BED8D4;
   font-family: 'Nunito Sans', sans-serif;
   color: #50514F;
-  font-size: 18;
+  font-size: 20px;
   text-align: center;
 }
 /*font-family: 'Lato', sans-serif;
@@ -13,7 +13,7 @@ font-family: 'Nunito Sans', sans-serif;
 h1{
   font-family: 'Lato', sans-serif;
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 27px;
 }
 
 h2{
@@ -25,7 +25,13 @@ h2{
 h3{
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 22px;
+}
+
+h4{
+ font-family: 'Lato', sans-serif;
+ font-weight: bold;
+ font-size: 25px;
 }
 
 a {
@@ -52,10 +58,10 @@ li {
 
 .card {
   background-color: #F7F9F9;
-  width: 50%;
+  width: 60%;
   padding: 10px;
   margin: 2px;
-  border: 3px #7AA095 solid;
+  border: 1px #7AA095 solid;
   border-radius: 10px
 }
 
@@ -67,11 +73,25 @@ li {
 }
 
 .card-menu {
+  display: flex;
+  flex-direction: row;
   background-color: #F7F9F9;
+  align-items: center;
   width: auto;
   padding: 10px;
   margin: 10px;
   border-radius: 10px
+}
+
+.card-menu-image {
+  width: 35%;
+  margin: 10px;
+}
+
+.card-menu-text {
+  width: 65%;
+  margin: 10px;
+  text-align: center;
 }
 
 .images {
